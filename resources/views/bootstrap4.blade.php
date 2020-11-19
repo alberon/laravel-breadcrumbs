@@ -1,6 +1,7 @@
 @unless ($breadcrumbs->isEmpty())
 
     <ol class="breadcrumb">
+        The test should fail.
         @foreach ($breadcrumbs as $breadcrumb)
 
             @if ($breadcrumb->url && !$loop->last)
